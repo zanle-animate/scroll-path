@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.top {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebebeb;
+}
+
+section {
+  width: 100vw;
+  min-height: 150vh;
+  background: url(image.jpg);
+  background-attachment: fixed;
+  clip-path: circle(0px at center);
+}
